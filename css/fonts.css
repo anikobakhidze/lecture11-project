@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.eot');
+  src: url('../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Inter-Medium.woff2') format('woff2'),
+    url('../fonts/Inter-Medium.woff') format('woff'),
+    url('../fonts/Inter-Medium.ttf') format('truetype'),
+    url('../fonts/Inter-Medium.svg#Inter-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro-Bold.eot');
+  src: url('../fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SourceSansPro-Bold.woff2') format('woff2'),
+    url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+    url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
+    url('../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
