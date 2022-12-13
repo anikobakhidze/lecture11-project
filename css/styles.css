@@ -1,14 +1,12 @@
 :root {
-  --orange-color: #F1A021;
+  --orange-color: #f1a021;
   --grey-color: #747578;
   --dark-grey: #514e4e;
-  --white-color: #FFF;
-
+  --white-color: #fff;
 }
 
 body {
-  font-family: 'Inter';
-
+  font-family: "Inter";
 }
 
 .d-flex {
@@ -20,12 +18,16 @@ body {
   max-width: 100%;
   margin: 0 auto;
 }
-
+.btn {
+  border: none;
+  border-radius: 30px;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
 /* header css */
 .logo-wrapper,
 .container {
   align-items: center;
-
 }
 
 .fixed {
@@ -36,13 +38,12 @@ body {
 
 .container-header {
   justify-content: space-between;
-  margin: 0 auto;
+  padding-top: 24px;
   background-color: var(--white-color);
-
 }
 
 .header-logo {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   color: black;
   margin-left: 8px;
 }
@@ -66,20 +67,186 @@ body {
 .contact-button {
   width: 116px;
   height: 43px;
-  border: none;
-  border-radius: 30px;
-  background-color: var(--orange-color);
-  color: var(--white-color);
 }
 
 /* agency css */
 .dash-h {
   margin-left: 16px;
   font-size: 14px;
-  color: #604E14;
+  color: #604e14;
+  line-height: 150%;
+}
+.agency-sect {
+  margin-bottom: 8px;
 }
 
 .container-agency {
-  margin: 0 auto;
-  padding: 120px;
+  margin: 0 auto 84px auto;
+  padding-top: 179px;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-block {
+  width: 569px;
+  max-width: 100%;
+}
+.right-block {
+  width: 591px;
+  max-width: 100%;
+}
+.main-h {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.left-block h2 {
+  margin-bottom: 16px;
+}
+.h-color {
+  display: block;
+  color: var(--orange-color);
+}
+.agency-p {
+  font-size: 16px;
+  line-height: 170%;
+  color: var(--grey-color);
+  margin-bottom: 32px;
+}
+.agency-get-btn {
+  width: 137px;
+  height: 43px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.video-btn-wrapper {
+  align-items: center;
+  cursor: pointer;
+}
+
+.play-btn-wrapper {
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/play-button.png");
+  background-position: 50% 30%;
+  margin-right: 16px;
+}
+.videos {
+  font-size: 16px;
+  font-weight: 500;
+  color: #686d77b2;
+}
+.right-block img {
+  width: 100%;
+}
+/* partner css */
+.partner-h {
+  text-align: center;
+  margin-bottom: 43px;
+  font-size: 20px;
+  color: #1b1a1c99;
+}
+.partner-container {
+  justify-content: space-between;
+  margin-bottom: 118px;
+}
+#about {
+  margin-bottom: 16px;
+}
+.about-h {
+  color: var(--orange-color);
+}
+.about-h-wrapper {
+  margin-bottom: 40px;
+}
+.about-block-wrapper {
+  justify-content: space-between;
+  margin-bottom: 112px;
+}
+.about-left-block,
+.about-right-block {
+  flex-direction: column;
+  width: 642px;
+}
+.about-right-block .first-img {
+  margin-bottom: 18px;
+}
+.about-left-block h3,
+.about-right-block h3 {
+  margin-top: 32px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.about-p {
+  font-size: 16px;
+  line-height: 180%;
+  color: var(--dark-grey);
+}
+.about-left-block .about-p {
+  margin-bottom: 48px;
+}
+.about-right-block .about-p {
+  margin-bottom: 16px;
+}
+
+.learn-more {
+  color: #000000;
+}
+.learn-more img {
+  margin-left: 8px;
+}
+/* services css */
+
+.service-wrapper {
+  justify-content: space-between;
+}
+#service {
+  margin-bottom: 16px;
+}
+.left-block-service {
+  width: 420px;
+}
+.right-block-service {
+  width: 660px;
+}
+.service-h {
+  font-size: 46px;
+  line-height: 150%;
+  letter-spacing: 0.3px;
+}
+.service-h span {
+  color: var(--orange-color);
+}
+.comm-p-serv {
+  line-height: 180%;
+  color: var(--grey-color);
+}
+.p-service {
+  margin: 25px 0px;
+  font-size: 15.5px;
+}
+.hr-line {
+  width: 100%;
+  height: 1.5px;
+  background-color: #000000;
+  margin-bottom: 25px;
+}
+.number-wrapper {
+  justify-content: space-around;
+}
+.number {
+  text-align: center;
+  padding-top: 15px;
+  height: 58px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 0.3px;
+  margin-bottom: 12px;
+}
+.about-number {
+  font-size: 16px;
+  color: var(--grey-color);
 }
