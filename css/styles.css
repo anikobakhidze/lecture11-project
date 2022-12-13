@@ -25,11 +25,18 @@ body {
 .logo-wrapper,
 .container {
   align-items: center;
+
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: var(--white-color);
 }
 
 .container-header {
   justify-content: space-between;
-  position: fixed;
+  margin: 0 auto;
   background-color: var(--white-color);
 
 }
