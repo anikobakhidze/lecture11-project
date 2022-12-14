@@ -81,6 +81,12 @@ body {
 .logo-image {
   animation: logo 2s linear infinite;
 }
+.burger-bar {
+  display: none;
+  font-size: 25px;
+  color: var(--orange-color);
+  cursor: pointer;
+}
 /* agency css */
 .dash-h {
   margin-left: 16px;
@@ -499,11 +505,6 @@ body {
   padding: 48px 60px 60px 60px;
   margin-bottom: 167px;
 }
-.contact-wrapper::before {
-  content: url("../images/squares.png");
-  position: absolute;
-}
-
 .down-square-img {
   position: absolute;
   bottom: -80px;
