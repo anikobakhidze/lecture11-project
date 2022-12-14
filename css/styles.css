@@ -24,6 +24,12 @@ body {
   border-radius: 30px;
   background-color: var(--orange-color);
   color: var(--white-color);
+  transition: all 0.5s;
+}
+.btn:hover,
+.send-btn:hover {
+  animation: buttons 2s linear;
+  cursor: pointer;
 }
 
 /* header css */
@@ -70,8 +76,11 @@ body {
 .contact-button {
   width: 116px;
   height: 43px;
+  cursor: pointer;
 }
-
+.logo-image {
+  animation: logo 2s linear infinite;
+}
 /* agency css */
 .dash-h {
   margin-left: 16px;
@@ -223,6 +232,9 @@ body {
 
 .learn-more img {
   margin-left: 8px;
+}
+.partner-img:hover {
+  animation: animations 3s linear;
 }
 
 /* services css */
@@ -487,6 +499,10 @@ body {
   padding: 48px 60px 60px 60px;
   margin-bottom: 167px;
 }
+.contact-wrapper::before {
+  content: url("../images/squares.png");
+  position: absolute;
+}
 
 .down-square-img {
   position: absolute;
@@ -693,4 +709,66 @@ body {
   font-size: 15px;
   letter-spacing: -0.2 px;
   color: var(--white-color);
+}
+/* keyframes */
+@keyframes buttons {
+  0% {
+    background-color: #f1a021;
+  }
+
+  25% {
+    background-color: #ff9e03;
+
+    transform: scale(1.1);
+  }
+  50% {
+    background-color: #ff9e03;
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+  50% {
+    background-color: #ff9e03;
+    opacity: 0.9;
+    transform: scale(1.2);
+  }
+  100% {
+    background-color: #f1a021;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes animations {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2) rotate(45deg);
+  }
+  50% {
+    transform: scale(1) rotate(90deg);
+  }
+  75% {
+    transform: scale(1.2) rotate(135deg);
+  }
+  100% {
+    transform: scale(1) rotate(180deg);
+  }
+}
+
+@keyframes logo {
+  0% {
+    transform: scale(1.2);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
