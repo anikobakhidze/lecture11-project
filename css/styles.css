@@ -36,6 +36,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: var(--white-color);
+  z-index: 10;
 }
 
 .container-header {
@@ -291,22 +292,19 @@ body {
   color: var(--grey-color);
 }
 
-
 .box {
   width: 314px;
   height: 405px;
   border: none;
-  border-top: 3px solid #F1D3A4;
+  border-top: 3px solid #f1d3a4;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(167, 158, 158, 0.25);
   padding: 66px 25px 0 25px;
-
 }
 
 .sub-left-service .box:first-child,
 .sub-right-service .box:first-child {
   margin-bottom: 32px;
-
 }
 
 .h-box {
@@ -320,7 +318,6 @@ body {
 
 .p-box {
   font-size: 15px;
-
 }
 
 .sub-right-service {
@@ -352,12 +349,10 @@ body {
   flex-direction: column;
   height: 57px;
   align-content: space-between;
-
 }
 
 .profile {
   margin-bottom: 37px;
-
 }
 
 .client-p {
@@ -390,11 +385,10 @@ body {
 
   font-weight: bold;
   margin-bottom: 32px;
-
 }
 
 .name-of-client {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 20px;
   font-style: bold;
   margin-bottom: 9px;
@@ -452,7 +446,6 @@ body {
   margin-top: 48px;
   align-items: center;
   margin-bottom: 124px;
-  ;
 }
 
 .bullets,
@@ -460,7 +453,7 @@ body {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background-color: #F1D3A4;
+  background-color: #f1d3a4;
 }
 
 .active-bullets {
@@ -481,29 +474,24 @@ body {
 
 /* contact css */
 
+.contact-img-top {
+  margin-top: 270px;
+  margin-left: 65%;
+}
 .contact-wrapper {
   width: 950px;
   max-width: 100%;
-  position: relative;
   border-radius: 10px;
   box-shadow: 2px 10px 28px rgba(75, 0, 129, 0.12);
   margin: 0 auto;
   padding: 48px 60px 60px 60px;
-  z-index: 10000;
   margin-bottom: 167px;
-}
-
-.square-img {
-  position: absolute;
-  right: -70px;
-  top: -70px;
 }
 
 .down-square-img {
   position: absolute;
   bottom: -80px;
   left: -70px;
-
 }
 
 .contact-yellow-h {
@@ -517,7 +505,6 @@ body {
   margin-bottom: 34px;
   font-size: 20px;
   letter-spacing: 5%;
-
 }
 
 .contact-left-block,
@@ -544,12 +531,12 @@ body {
 .input {
   width: 100%;
   border-radius: 4px;
-  border: 1.2px solid #B4BEC8;
+  border: 1.2px solid #b4bec8;
   padding: 16px;
 }
 
 .input::placeholder {
-  font-family: 'Inter-regular';
+  font-family: "Inter-regular";
   color: #878787;
   letter-spacing: 2%;
   opacity: 80%;
@@ -557,7 +544,6 @@ body {
 
 .email-inp {
   margin-bottom: 24px;
-
 }
 
 .text-inp {
@@ -583,9 +569,9 @@ body {
 }
 
 .icon-p {
-  color: #0F001A;
+  color: #0f001a;
   letter-spacing: 2%;
-  line-height: 114%
+  line-height: 114%;
 }
 
 .address {
@@ -612,7 +598,7 @@ body {
 /* footer css */
 .container-fluid {
   width: 100%;
-  background-color: #1E2833;
+  background-color: #1e2833;
   padding-top: 60px;
 }
 
@@ -625,7 +611,7 @@ body {
 }
 
 .logo-wrapper {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   color: var(--white-color);
   font-size: 20px;
   font-weight: bold;
@@ -634,26 +620,24 @@ body {
 
 .logo-wrapper img {
   margin-right: 6px;
-
 }
 
 .footer-p {
-  font-family: 'Inter-regular';
+  font-family: "Inter-regular";
   color: var(--white-color);
   line-height: 170%;
 }
 
 .footer-h {
   margin-bottom: 40px;
-  font-family: 'Inter-regular';
+  font-family: "Inter-regular";
   font-size: 20px;
   color: var(--orange-color);
 }
 
 .footer-li {
-  font-family: 'Inter-regular';
+  font-family: "Inter-regular";
   color: var(--white-color);
-
 }
 
 .list-wrapper li:not(:last-child) {
@@ -663,9 +647,50 @@ body {
 .subscribe-h {
   width: 168px;
   margin-bottom: 30px;
-  font-family: 'Inter-regular';
+  font-family: "Inter-regular";
   font-size: 22px;
   line-height: 180%;
   color: var(--white-color);
-  letter-spacing: -0.3px
+  letter-spacing: -0.3px;
+}
+.subscribe-input {
+  width: 100%;
+  height: 54px;
+  background-color: #1e2833;
+  border: 1px solid var(--white-color);
+  padding: 15px 0 15px 19px;
+  border-radius: 0px 8px 8px 0px;
+}
+.subscribe-input::placeholder {
+  font-size: 15px;
+  color: var(--white-color);
+}
+.arrow-button {
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange-color);
+  border-radius: 8px 8px 8px 0;
+  border: none;
+  color: var(--white-color);
+  font-size: 20px;
+}
+.footer-input {
+  position: relative;
+  width: 289px;
+}
+.footer-inp-icn-wrapper {
+  justify-content: space-between;
+}
+.subscribe {
+  margin-bottom: 51px;
+}
+.copyright {
+  justify-content: center;
+  padding-bottom: 32px;
+  font-size: 15px;
+  letter-spacing: -0.2 px;
+  color: var(--white-color);
 }
