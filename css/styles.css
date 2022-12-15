@@ -26,6 +26,7 @@ body {
   color: var(--white-color);
   transition: all 0.5s;
 }
+
 .btn:hover,
 .send-btn:hover {
   animation: buttons 2s linear;
@@ -42,7 +43,6 @@ body {
   position: fixed;
   width: 100%;
   background-color: var(--white-color);
-  z-index: 10;
 }
 
 .container-header {
@@ -78,15 +78,18 @@ body {
   height: 43px;
   cursor: pointer;
 }
+
 .logo-image {
   animation: logo 2s linear infinite;
 }
+
 .burger-bar {
   display: none;
   font-size: 25px;
   color: var(--orange-color);
   cursor: pointer;
 }
+
 /* agency css */
 .dash-h {
   margin-left: 16px;
@@ -103,7 +106,6 @@ body {
   margin: 0 auto 84px auto;
   padding-top: 179px;
   justify-content: space-between;
-  align-items: center;
 }
 
 .left-block {
@@ -239,6 +241,7 @@ body {
 .learn-more img {
   margin-left: 8px;
 }
+
 .partner-img:hover {
   animation: animations 3s linear;
 }
@@ -496,6 +499,7 @@ body {
   margin-top: 270px;
   margin-left: 65%;
 }
+
 .contact-wrapper {
   width: 950px;
   max-width: 100%;
@@ -505,6 +509,7 @@ body {
   padding: 48px 60px 60px 60px;
   margin-bottom: 167px;
 }
+
 .down-square-img {
   position: absolute;
   bottom: -80px;
@@ -632,7 +637,7 @@ body {
   color: var(--white-color);
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 24px;
+
 }
 
 .logo-wrapper img {
@@ -670,6 +675,7 @@ body {
   color: var(--white-color);
   letter-spacing: -0.3px;
 }
+
 .subscribe-input {
   width: 100%;
   height: 54px;
@@ -678,10 +684,12 @@ body {
   padding: 15px 0 15px 19px;
   border-radius: 0px 8px 8px 0px;
 }
+
 .subscribe-input::placeholder {
   font-size: 15px;
   color: var(--white-color);
 }
+
 .arrow-button {
   position: absolute;
   right: 1px;
@@ -694,16 +702,21 @@ body {
   color: var(--white-color);
   font-size: 20px;
 }
+
 .footer-input {
   position: relative;
   width: 289px;
 }
+
 .footer-inp-icn-wrapper {
   justify-content: space-between;
+  align-items: center;
 }
+
 .subscribe {
   margin-bottom: 51px;
 }
+
 .copyright {
   justify-content: center;
   padding-bottom: 32px;
@@ -711,6 +724,7 @@ body {
   letter-spacing: -0.2 px;
   color: var(--white-color);
 }
+
 /* keyframes */
 @keyframes buttons {
   0% {
@@ -722,16 +736,19 @@ body {
 
     transform: scale(1.1);
   }
+
   50% {
     background-color: #ff9e03;
     opacity: 0.8;
     transform: scale(1.2);
   }
+
   50% {
     background-color: #ff9e03;
     opacity: 0.9;
     transform: scale(1.2);
   }
+
   100% {
     background-color: #f1a021;
     transform: scale(1.1);
@@ -742,15 +759,19 @@ body {
   0% {
     transform: scale(1);
   }
+
   25% {
     transform: scale(1.2) rotate(45deg);
   }
+
   50% {
     transform: scale(1) rotate(90deg);
   }
+
   75% {
     transform: scale(1.2) rotate(135deg);
   }
+
   100% {
     transform: scale(1) rotate(180deg);
   }
@@ -760,15 +781,19 @@ body {
   0% {
     transform: scale(1.2);
   }
+
   25% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
+
   75% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(1.2);
   }
